@@ -1,5 +1,4 @@
-# Java Interview Assignment
-Spring Boot application that will be used by our candidates to implement interview assignment.
+# Librarian System
 
 ## Dependencies
 This project relies mainly on Spring Boot. Mainly:
@@ -9,35 +8,23 @@ This project relies mainly on Spring Boot. Mainly:
   
 Full list of dependencies can be found in [pom.xml][1].
 
-## Requirements:
-  - Candidates expected to implement required features based on provided scenario
-  - Each implementation should be equipped with unit tests
-  - Integration tests are require to demonstrate API usages
-
 ### Scenario
 The are two roles in the system; `LIBRARIAN` and `MEMBER`
 
 #### As a Librarian
-  - I can add, update, and remove Books from the system
-  - I can add, update, view, and remove Member from the system
+  - You can add, update, and remove Books from the system
+  - You can add, update, view, and remove Member from the system
   
 #### As a Member
-  - I can view, borrow, and return available Books
+  - You can view, borrow, and return available Books
   - Once a book is borrowed, its status will change to `BORROWED`
   - Once a book is returned, its status will change to `AVAILABLE`
-  - I can delete my own account
+  - You can delete your own account
 
-## Nice to Have:
-It will be an advantage for candidates to demonstrate the following:
-
+## Main focus of this project is to demonstrate my:
   - proper usage of Http Methods and REST practices
-  - understanding of [SOLID Principle][2]
+  - understanding of SOLID Principle
   - understanding of Design patterns
   - understanding of TDD and BDD
 
-## Submission:
-Candidates can submit their assignments via:
-  - Pull Request
-
 [1]: pom.xml
-[2]: https://en.wikipedia.org/wiki/SOLID
